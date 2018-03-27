@@ -1,0 +1,5 @@
+option('external-sqlite', type : 'boolean', value : false, description : 'Use external SQLite3 library')
+option('threadsafe', type : 'boolean', value : true, description : 'Build a thread-safe library')
+option('dynamic-extensions', type : 'boolean', value : true, description : 'Enable loadable SQLite3 extensions')
+option('column-metadata', type : 'boolean', value : true, description : 'Enable SQLite3 column metadata')
+option('static-runtime', type : 'boolean', value : true, description : 'Link libgcc statically for better portability')

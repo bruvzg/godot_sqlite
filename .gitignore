@@ -1,0 +1,6 @@
+.import/*
+bin/
+_build/
+_build_all.sh
+*.import
+*.toolchain
